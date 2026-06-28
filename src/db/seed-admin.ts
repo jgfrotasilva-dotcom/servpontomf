@@ -1,4 +1,3 @@
-import 'dotenv/config';
 import { db } from './index';
 import { usuarios } from './schema';
 import { hashPassword } from '@/lib/auth';
